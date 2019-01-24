@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.1.22)  22 JAN 2019 21:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.1.22)  23 JAN 2019 22:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -126,15 +126,15 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./WritingSkills2.aux) ) 
 Here is how much of TeX's memory you used:
- 1220 strings out of 492615
- 14084 string characters out of 6131390
- 75288 words of memory out of 5000000
- 5166 multiletter control sequences out of 15000+600000
- 8592 words of font info for 33 fonts, out of 8000000 for 9000
+ 1224 strings out of 492615
+ 14122 string characters out of 6131390
+ 79288 words of memory out of 5000000
+ 5168 multiletter control sequences out of 15000+600000
+ 9213 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 27i,9n,27p,266b,102s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,10n,27p,299b,106s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on WritingSkills2.pdf (1 page, 68227 bytes).
+Output written on WritingSkills2.pdf (1 page, 76263 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream

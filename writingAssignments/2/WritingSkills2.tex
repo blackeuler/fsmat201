@@ -30,26 +30,39 @@
 Typesetting Matrices and Vectors}
 \end{center}
 
-An $m x n$ matrix is an array of m rows and n columns. The notation $a_{ij}$ 
-is used to denote the entry in the ith row and the jth column of a matrix A,
-so a general $m x n$ matrix A has the form 
-
-    
+An $m \times n$ matrix is an array of $m$ rows and $n$ columns. The notation $a_{ij}$ 
+is used to denote the entry in the $i$th row and the $j$th column of a matrix $A$, so a general $m \times n$ matrix $A$ has the form 
        $$ \begin{bmatrix}
             a_{11} & a_{12} & \cdots & a_{1n} \\
             a_{21} & a_{22} & \cdots & a_{2n} \\
             \vdots  & \vdots  & \ddots & \vdots  \\
             a_{m1} & a_{m2} & \cdots & a_{mn} 
         \end{bmatrix}    .$$
-A vector $u \in \mathbb{R}^n$ is an n x 1 matrix. Thus, u has the form
-
-$$ u = \begin{bmatrix}
+A vector $ \mathbf{u} \in \mathbb{R}^n$ is an $n \times 1$ matrix. Thus, $\mathbf{u}$ has the form $$ \mathbf{u} = \begin{bmatrix}
     u_1\\u_2\\\vdots\\u_n\\
-\end{bmatrix}$$
+\end{bmatrix},$$
+where $u_1,u_2, \ldots , u_n$ are real numbers. To save space, it is often convenient to express a vector in terms of its transpose, so $\mathbf{u} = [u_1,u_2,\ldots,u_n]^T$ or $ \mathbf{u}^T = [u_1,u_2,\ldots,u_n]$.
 
-where $u_1,u_2, \cdots , u_m$ are real numbers. To save space, it is often
-convenient to express a vector in terms of its transpose, so $u = [u_1,u_2,\cdots,u_n]^T$ and v
+Given $\mathbf{u} = [u_1,u_2,\ldots,u_n]^T$ and $\mathbf{v} = [v_1,v_2,\ldots,v_n]^T$, the inner product of $\mathbf{u}$ and $\mathbf{v}$, $\mathbf{u} \cdot \mathbf{v}$, is defined by 
+\[ \mathbf{u} \cdot \mathbf{v} = \sum_{k=1}^{n} u_k v_k = u_1v_1 + u_2v_2 + \cdots + u_n v_n .\]
+The $norm$ of  a vector $\mathbf{u}$ is denoted by \[ \|u\| = \sqrt{ \sum_{k=1}^{n} u_k^2} = \sqrt{u_1^2+u_2^2+\cdots + u_n^2} .\]
+Note that $\|\mathbf{u}\| = \sqrt{\mathbf{u} \cdot \mathbf{u}}.$
 
+The matrix $$ \begin{bmatrix}
+    \phantom{-}3 & \phantom{-}0 & -1 & 5 & \phantom{-}9 & -2\\
+    -5 & \phantom{-}2 & \phantom{-}4 & 0 & -3 & \phantom{-}1 \\
+    -8 & -6 & \phantom{-}3 & 1 & \phantom{-}7 & -4  
+     
+\end{bmatrix}    .$$
+can also be written, for example, as the $2 \times 3$ partitioned matrix or block matrix
+$$ \left[
+    \begin{array}{c|c}
+    M & N \\
+    \hline
+    R & S
+    \end{array}
+    \right]
+     $$
 \end{document}
 
 

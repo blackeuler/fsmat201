@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1548209643 "/home/developer/Documents/fsmat201/writingAssignments/2/WritingSkills2.tex" "WritingSkills2.pdf" "WritingSkills2" 1548209644
+["pdflatex"] 1548300669 "/home/developer/Documents/fsmat201/writingAssignments/2/WritingSkills2.tex" "WritingSkills2.pdf" "WritingSkills2" 1548300669
   "/etc/texmf/web2c/texmf.cnf" 1525479963 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/developer/Documents/fsmat201/writingAssignments/2/WritingSkills2.tex" 1548209643 1490 fed563fea39993e1cf8fbd5e765af3d1 ""
+  "/home/developer/Documents/fsmat201/writingAssignments/2/WritingSkills2.tex" 1548300669 2496 87e1bb0df587e49c42ee898b093328f2 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1480098698 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -10,6 +10,8 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1480098698 908 2921f8a10601f252058503cc6570e581 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1480098698 940 228d6584342e91276bf566bcf9716b83 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm" 1136768653 1344 8a0be4fe4d376203000810ad4dc81558 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm" 1136768653 1332 1fde11373e221473104d6cc5993f046e ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -45,9 +47,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1545044285 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1548198469 3037392 8dc1b9b1925c1fcb1188012c1cd4a964 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1548198522 4226761 5d1b20fc6447286c6b56ea8eeef6c710 ""
-  "WritingSkills2.aux" 1548209644 8 a94a2480d3289e625eea47cd1b285758 ""
-  "WritingSkills2.tex" 1548209643 1490 fed563fea39993e1cf8fbd5e765af3d1 ""
+  "WritingSkills2.aux" 1548300669 8 a94a2480d3289e625eea47cd1b285758 ""
+  "WritingSkills2.tex" 1548300669 2496 87e1bb0df587e49c42ee898b093328f2 ""
   (generated)
-  "WritingSkills2.pdf"
-  "WritingSkills2.aux"
   "WritingSkills2.log"
+  "WritingSkills2.aux"
+  "WritingSkills2.pdf"
