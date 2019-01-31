@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.1.22)  22 JAN 2019 20:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.1.22)  31 JAN 2019 17:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/developer/Documents/fsmat201/writingAssignments/WritingSkills1.tex
-(/home/developer/Documents/fsmat201/writingAssignments/WritingSkills1.tex
+**/home/developer/Documents/fsmat201/writingAssignments/1/WritingSkills1.tex
+(/home/developer/Documents/fsmat201/writingAssignments/1/WritingSkills1.tex
 LaTeX2e <2018-12-01>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -100,7 +100,7 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks25
 \verbatim@line=\toks26
 \verbatim@in@stream=\read1
-) (./WritingSkills1.aux)
+) (/home/developer/Documents/fsmat201/writingAssignments/1/WritingSkills1.aux)
 \openout1 = `WritingSkills1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -131,17 +131,17 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./WritingSkills1.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/developer/Documents/fsmat201/writingAssignments/1/WritingSkills1.aux) ) 
 Here is how much of TeX's memory you used:
- 1239 strings out of 492615
- 14389 string characters out of 6131390
+ 1240 strings out of 492615
+ 14734 string characters out of 6131390
  77288 words of memory out of 5000000
- 5181 multiletter control sequences out of 15000+600000
+ 5182 multiletter control sequences out of 15000+600000
  8901 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 27i,8n,27p,264b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,8n,27p,266b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on WritingSkills1.pdf (1 page, 91101 bytes).
+Output written on /home/developer/Documents/fsmat201/writingAssignments/1/WritingSkills1.pdf (1 page, 91426 bytes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream
