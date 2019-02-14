@@ -70,49 +70,49 @@ Let $\mathbf{u} \in \mathbb{R}^n$. Prove that the normalization of \textbf{u} ha
     \begin{tabular}{l}
     Christopher David Miller \\  % Enter your name here
     FSMAT 201 \\  % The current class. You can change this if you want to use this for other classes.
-    Problems 1.1 \\  % Replace x with the appropriate problem number
-    Version 1 \\ %If this is the first time you've submitted this solution, let n=1. If this is a first resubmission, let n=2, etc. 
+    Problem 1.1 \\  % Replace x with the appropriate problem number
+    Version 2 \\ %If this is the first time you've submitted this solution, let n=1. If this is a first resubmission, let n=2, etc. 
     \end{tabular}
     \end{flushright}
     \vspace{20pt}  % Just adding some extra vertical space.
     
     % Now write out the statement of the problem, followed by your solution. 
     
-    \textbf{1.1} \\  % Replace x with the appropriate problem number
-    \begin{prop}
+    \textbf{1.1} \\  
+    
         Let $\mathbf{v} = [1,2,3,\dots ,n]^T$ and $\mathbf{w} = [1,1,1\dots,1]^T$, where $\mathbf{v},\mathbf{w} \in \mathbb{R}^n$.
-    \end{prop}
+    
     
     \begin{enumerate}[(a)]
         \item Compute $\mathbf{v} \cdot \mathbf{w}$.
         
-            $\textbf{Solution}:$ The dot product between two vectors can be written in summation notation. As the following:\[
+            $\textbf{Solution}:$ The dot product between two vectors is given by:\[
               \sum_{i=1}^n v_iw_i  
-            \]
+            .\]
             So for this problem we have the following:
             \[
             \mathbf{v} \cdot \mathbf{w} = 1\cdot1 + 2 \cdot 1 + 3 \cdot 1 + \dots + 1 \cdot n
-            \]
-            which is the same as :
+            .\]
+            This can be written more succintly in summation notation as:
             \[
             \sum_{i=1}^n i
-            \]
+            .\]
         \item Compute $\|\mathbf{v}\|$.        
         
-            $\textbf{Solution}:$ We first remind ourselves of the definition of the norm of a vector $\mathbf{u}$ to be  the following:\[
+            $\textbf{Solution}:$ We first remind ourselves that the definition of the norm of a vector $\mathbf{u}$ is \[
                 \|  \mathbf{u} \| = \sqrt{\sum_{k=1}^{n}v_k^2}
-            \]
+            .\]
             Using this definition and substituting we get:\[
                 \|  \mathbf{v} \| = \sqrt{1^2 + 2^2 + 3^2 + \dots +n^2}
-            \]
+            .\]
         \item Compute $\|\mathbf{w}\|$.
                 
-        $\textbf{Solution}:$ Similarily using the definition from part (a) we can calculate the norm of a vector $\mathbf{w}$ like the following:
+        $\textbf{Solution}:$ Similarily using the definition from part (b) we can calculate the norm of a vector $\mathbf{w}$:
         \begin{align*}
             \|  \mathbf{w} \|& = \sqrt{1^2 + 1^2 + 1^2 + \dots +1^2}\\
             & = \sqrt{1 + 1 + 1 + \dots +1}\\
             & = \sqrt{n}
-        \end{align*}
+        .\end{align*}
        
     \end{enumerate}
 
@@ -121,31 +121,31 @@ Let $\mathbf{u} \in \mathbb{R}^n$. Prove that the normalization of \textbf{u} ha
     \begin{tabular}{l}
     Christopher David Miller \\  % Enter your name here
     FSMAT 201 \\  % The current class. You can change this if you want to use this for other classes.
-    Problems 1.3 \\  % Replace x with the appropriate problem number
-    Version 1 \\ %If this is the first time you've submitted this solution, let n=1. If this is a first resubmission, let n=2, etc. 
+    Problem 1.3 \\  % Replace x with the appropriate problem number
+    Version 2 \\ %If this is the first time you've submitted this solution, let n=1. If this is a first resubmission, let n=2, etc. 
     \end{tabular}
     \end{flushright}
     \vspace{20pt}  % Just adding some extra vertical space.
     
     % Now write out the statement of the problem, followed by your solution. 
     
-    \textbf{1.3} \\  % Replace x with the appropriate problem number
-    \begin{prop}
+    \textbf{1.3}  
+    
         Let c be a real number and let $\mathbf{v} \in \mathbb{R}^n$ with $v_k = c$ for $k = 1,2, \dots ,n.$ Find $\|\mathbf{v}\|$.
-    \end{prop}
+    
     
         
-            $\textbf{Solution}:$ The norm $\|\mathbf{v}\|$ of a vector $\mathbf{v}$ can be written in summation notation. Like the following:
-            \[
-                \|  \mathbf{v} \| = \sqrt{\sum_{k=1}^{n}v_k^2}
-            \]
+            $\textbf{Solution}:$ The norm of a vector $\mathbf{v}$ is the scalar $\|  \mathbf{v} \|$ given by   
+            $$\|  \mathbf{v} \| = \sqrt{\sum_{k=1}^{n}v_k^2} \text{ ,where } \mathbf{v} = \begin{bmatrix}v_1  &v_2& v_3 \dots v_k
+               \end{bmatrix}^{T}.  $$
+            
             So in our case we replace $v_k$ with $c$ then we have:
             \begin{align*}
                 \|  \mathbf{v} \|& = \sqrt{c^2 + c^2 + c^2 + \dots +c^2}\\
                 & = \sqrt{nc^2}\\
                 & = \sqrt{n} \cdot \lvert c\rvert
             \end{align*}
-            Which is our final result.
+            So we have found that $\|\mathbf{v}\|$ is $\sqrt{n} \cdot \lvert c\rvert$.
 
 
 \end{document}
