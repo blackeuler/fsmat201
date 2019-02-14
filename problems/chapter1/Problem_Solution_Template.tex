@@ -30,8 +30,8 @@
 \begin{tabular}{l}
 Christopher David Miller \\  % Enter your name here
 FSMAT 201 \\  % The current class. You can change this if you want to use this for other classes.
-Problems 1.8 \\  % Replace x with the appropriate problem number
-Version 1 \\ %If this is the first time you've submitted this solution, let n=1. If this is a first resubmission, let n=2, etc. 
+Problem 1.8 \\  % Replace x with the appropriate problem number
+Version 2 \\ %If this is the first time you've submitted this solution, let n=1. If this is a first resubmission, let n=2, etc. 
 \end{tabular}
 \end{flushright}
 \vspace{20pt}  % Just adding some extra vertical space.
@@ -46,18 +46,24 @@ Let $\mathbf{u} \in \mathbb{R}^n$. Prove that the normalization of \textbf{u} ha
     Let $\mathbf{u} \in \mathbb{R}^n$.
     The normalization of a vector $\mathbf{u}$ is the vector $\mathbf{v}$ given by   
     \[\mathbf{v} = \frac{\mathbf{u}}{\| \mathbf{u} \|}.\] 
-    The norm of a vector $\mathbf{u}$ is the scalar $\|  \mathbf{v} \|$ given by   
-    $$\|  \mathbf{v} \| = \sqrt{\sum_{k=1}^{n}v_k^2}$$ 
-    So first we compose the formula for the normalization of $\mathbf{v}$ inside of the norm formula:
+    The norm of a vector $\mathbf{u}$ is the scalar $\|  \mathbf{u} \|$ given by   
+    $$\|  \mathbf{u} \| = \sqrt{\sum_{k=1}^{n}u_k^2} \text{ ,where } \mathbf{u} = \begin{bmatrix}u_1  &u_2& u_3 \dots u_k
+       \end{bmatrix}^{T}.  $$ 
+    In order to show the normalization of a vector $\mathbf{u}$ has norm 1, we find the normalization of $\mathbf{u}$:
+       \begin{align*}
+         \frac{\mathbf{u}}{\| \mathbf{u} \|}.
+       \end{align*}
+       Now we must calculate the norm of the normalization of $\mathbf{u}$:
         \begin{align*}
-          \|  \mathbf{v} \| &=  \sqrt{\sum_{k=1}^{n}\frac{u_k}{\| \mathbf{u} \|}^2} \\ 
+          \|  \text{Normalization of }\mathbf{u} \| &=  \sqrt{\sum_{k=1}^{n}\left(\frac{u_k}{\| \mathbf{u} \|}\right)^2} \text{ ,where normalization of  } \mathbf{u} = \begin{bmatrix}\frac{u_1}{\| \mathbf{u} \|}  &\frac{u_2}{\| \mathbf{u} \|}& \frac{u_3}{\| \mathbf{u} \|} \dots \frac{u_k}{\| \mathbf{u} \|}
+          \end{bmatrix}^{T}.\\ 
                             &=  \sqrt{\sum_{k=1}^{n}\frac{u_k^2}{\| \mathbf{u} \|^2}} \\ 
-                            &=  \sqrt{\frac{1}{\| \mathbf{u} \|^2}\sum_{k=1}^{n}\frac{u_k^2}{1}} \\
-                            &=  \frac{1}{\| \mathbf{u} \|}\sqrt{\sum_{k=1}^{n}\frac{u_k^2}{1}} \\
+                            &=  \sqrt{\frac{1}{\| \mathbf{u} \|^2}\sum_{k=1}^{n} u_k^2} \\
+                            &=  \frac{1}{\| \mathbf{u} \|}\sqrt{\sum_{k=1}^{n} u_k^2} \\
                             &=  \frac{1}{\| \mathbf{u} \|} \| \mathbf{u} \| \\
                             &=  1. \\
         \end{align*}
-        By simplifying like above, we arrive at the answer of 1.  
+        So from the above steps we see that the normalization of a vector has norm 1.  
 \end{proof}
 \newpage
 \begin{flushright}
