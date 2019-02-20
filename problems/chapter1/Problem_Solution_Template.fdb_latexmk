@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1550135684 "/home/developer/Documents/fsmat201/problems/chapter1/Problem_Solution_Template.tex" "/home/developer/Documents/fsmat201/problems/chapter1/Problem_Solution_Template.pdf" "Problem_Solution_Template" 1550135684
+["pdflatex"] 1550657372 "/home/developer/Documents/fsmat201/problems/chapter1/Problem_Solution_Template.tex" "/home/developer/Documents/fsmat201/problems/chapter1/Problem_Solution_Template.pdf" "Problem_Solution_Template" 1550657373
   "/etc/texmf/web2c/texmf.cnf" 1550118076 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/developer/Documents/fsmat201/problems/chapter1/Problem_Solution_Template.aux" 1550135684 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/home/developer/Documents/fsmat201/problems/chapter1/Problem_Solution_Template.tex" 1550135683 6555 15f0f3e1f35a783efc19a10db248760c ""
+  "/home/developer/Documents/fsmat201/problems/chapter1/Problem_Solution_Template.aux" 1550657373 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/developer/Documents/fsmat201/problems/chapter1/Problem_Solution_Template.tex" 1550657372 6568 c29c7f71463cf4629a8bfb2861190444 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1480098698 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -57,11 +57,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1549015539 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1550118415 3235830 8e8a9c21628e3dfc5634cee212325b54 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1550118432 4224260 e6032cd2f7d488b91680b5fa0d219a9f ""
-  "Problem_Solution_Template.aux" 1550135684 8 a94a2480d3289e625eea47cd1b285758 ""
-  "Problem_Solution_Template.tex" 1550135683 6555 15f0f3e1f35a783efc19a10db248760c ""
+  "Problem_Solution_Template.aux" 1550657373 8 a94a2480d3289e625eea47cd1b285758 ""
+  "Problem_Solution_Template.tex" 1550657372 6568 c29c7f71463cf4629a8bfb2861190444 ""
   (generated)
   "Problem_Solution_Template.pdf"
   "Problem_Solution_Template.aux"
-  "/home/developer/Documents/fsmat201/problems/chapter1/Problem_Solution_Template.pdf"
-  "Problem_Solution_Template.log"
   "/home/developer/Documents/fsmat201/problems/chapter1/Problem_Solution_Template.log"
+  "Problem_Solution_Template.log"
+  "/home/developer/Documents/fsmat201/problems/chapter1/Problem_Solution_Template.pdf"
