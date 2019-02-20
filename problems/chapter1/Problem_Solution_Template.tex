@@ -31,7 +31,7 @@
 Christopher David Miller \\  % Enter your name here
 FSMAT 201 \\  % The current class. You can change this if you want to use this for other classes.
 Problem 1.8 \\  % Replace x with the appropriate problem number
-Version 2 \\ %If this is the first time you've submitted this solution, let n=1. If this is a first resubmission, let n=2, etc. 
+Version 3 \\ %If this is the first time you've submitted this solution, let n=1. If this is a first resubmission, let n=2, etc. 
 \end{tabular}
 \end{flushright}
 \vspace{20pt}  % Just adding some extra vertical space.
@@ -47,7 +47,7 @@ Let $\mathbf{u} \in \mathbb{R}^n$. Prove that the normalization of \textbf{u} ha
     The normalization of a vector $\mathbf{u}$ is the vector $\mathbf{v}$ given by   
     \[\mathbf{v} = \frac{\mathbf{u}}{\| \mathbf{u} \|}.\] 
     The norm of a vector $\mathbf{u}$ is the scalar $\|  \mathbf{u} \|$ given by   
-    $$\|  \mathbf{u} \| = \sqrt{\sum_{k=1}^{n}u_k^2} \text{ ,where } \mathbf{u} = \begin{bmatrix}u_1  &u_2& u_3 \dots u_k
+    $$\|  \mathbf{u} \| = \sqrt{\sum_{k=1}^{n}u_k^2} \text{ ,where } \mathbf{u} = \begin{bmatrix}u_1  &u_2& u_3 \dots u_n
        \end{bmatrix}^{T}.  $$ 
     In order to show the normalization of a vector $\mathbf{u}$ has norm 1, we find the normalization of $\mathbf{u}$:
        \begin{align*}
@@ -55,8 +55,7 @@ Let $\mathbf{u} \in \mathbb{R}^n$. Prove that the normalization of \textbf{u} ha
        \end{align*}
        Now we must calculate the norm of the normalization of $\mathbf{u}$:
         \begin{align*}
-          \|  \text{Normalization of }\mathbf{u} \| &=  \sqrt{\sum_{k=1}^{n}\left(\frac{u_k}{\| \mathbf{u} \|}\right)^2} \text{ ,where normalization of  } \mathbf{u} = \begin{bmatrix}\frac{u_1}{\| \mathbf{u} \|}  &\frac{u_2}{\| \mathbf{u} \|}& \frac{u_3}{\| \mathbf{u} \|} \dots \frac{u_k}{\| \mathbf{u} \|}
-          \end{bmatrix}^{T}.\\ 
+            \frac{\mathbf{u}}{\| \mathbf{u} \|} &=  \sqrt{\sum_{k=1}^{n}\left(v_k\right)^2} \text{ ,where   } v_k =\frac{u_k}{\| \mathbf{u} \|} \\ 
                             &=  \sqrt{\sum_{k=1}^{n}\frac{u_k^2}{\| \mathbf{u} \|^2}} \\ 
                             &=  \sqrt{\frac{1}{\| \mathbf{u} \|^2}\sum_{k=1}^{n} u_k^2} \\
                             &=  \frac{1}{\| \mathbf{u} \|}\sqrt{\sum_{k=1}^{n} u_k^2} \\
