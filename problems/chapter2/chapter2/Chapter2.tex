@@ -1,0 +1,74 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb,amsthm,verbatim}
+
+%*****************************************************************
+%			Dimensions
+
+\setlength{\textheight}{9in}
+\setlength{\textwidth}{6.5in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\hoffset}{0in}
+\setlength{\voffset}{-1in}
+\setlength{\footskip}{.5in}
+\setlength{\parskip}{10pt}
+\setlength{\parindent}{0pt}
+
+\pagestyle{empty}
+
+%*****************************************************************
+
+%****************************************************************
+                
+
+\begin{document}
+
+\begin{flushright}
+\begin{tabular}{l}
+Christopher David Miller \\  % Enter your name here
+FSMAT 201 \\  % The current class. You can change this if you want to use this for other classes.
+Problem 2.1 \\  % Replace x with the appropriate problem number
+Version 1 \\ %If this is the first time you've submitted this solution, let n=1. If this is a first resubmission, let n=2, etc. 
+\end{tabular}
+\end{flushright}
+\vspace{20pt}  % Just adding some extra vertical space.
+
+% Now write out the statement of the problem, followed by your solution. 
+
+\textbf{2.1} \\  % Replace x with the appropriate problem number
+Show that if $B = W_MAW_{N}^{T}$, then $W_{M}^{T}BW_N = A$.
+
+\textbf{Solution}
+
+Let $A$ be a $M \times N$ matrix.
+
+Suppose $B = W_MAW_{N}^{T}$.
+
+We intend to show that the above equation implies $W_{M}^{T}BW_N = A$.
+
+  $$B = W_MAW_{N}^{T}$$
+  Our first step is to multiply on the left sides by $W_{M}^{T},$ 
+
+  $$W_{M}^{T} \cdot B = W_{M}^{T} \cdot W_MAW_{N}^{T}.$$
+
+  Now note that since the transformation is invertible then $$W_{M}^{T} \cdot W_M = I.$$
+  After simplifying we now have
+  $$W_{M}^{T} B = AW_{N}^{T}.$$
+  Our next step is to multiply by $W_{N}$ on the right sides, $$W_{M}^{T} B \cdot W_{N} = AW_{N}^{T} \cdot W_{N}.$$
+  Finnaly after simplifying we are left with our desired result:
+  $$W_{M}^{T}BW_N = A$$
+
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
