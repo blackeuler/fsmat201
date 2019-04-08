@@ -39,19 +39,21 @@ Version 1 \\ %If this is the first time you've submitted this solution, let n=1.
 Let $z = a + bi$ and $w = c + di $. Prove that $\overline{zw} = \overline{z} \cdot \overline{w}$.
 
 
-To prove this statement we need to introduce the definition of the conjugate of a complex number. Let $q$ be a complex number, in other words $q = c + di$ where $c$ and $d$ are real numbers. The conjugate of $q$, denoted by $\overline{q}$, is defined by $$\overline{q}= c - di.$$
+
 Now we have enough definitions to finish our proof.
 \begin{proof}
-  
+  To prove this statement we need to introduce the definition of the conjugate of a complex number. Let $q$ be a complex number, in other words $q = c + di$ where $c$ and $d$ are real numbers and where $i = \sqrt{-1}.$ The conjugate of $q$, denoted by $\overline{q}$, is defined by $$\overline{q}= c - di.$$
   Let $z = a + bi$ and $w = c + di $. In order to show that  $\overline{zw} = \overline{z} \cdot \overline{w}$. We need to calculate $\overline{zw}$ and $\overline{z} \cdot \overline{w}$ .
+  $$
+  \begin{aligned}
+    \overline{zw} &= \overline{(a+bi)(c+di)} \\ 
+     &= \overline{ac+adi+bci-bd}\\
+     &= \overline{(ac-bd)+i(ad+bc)}\\
+     &= (ac-bd)-i(ad+bc)  
+  \end{aligned}
+  $$
   \begin{equation*}
-    \begin{aligned}[c]
-      \overline{zw} &= \overline{(a+bi)(c+di)} \\ 
-       &= \overline{ac+adi+bci-bd}\\
-       &= \overline{(ac-bd)+i(ad+bc)}\\
-       &= (ac-bd)-i(ad+bc)  
-    \end{aligned}
-    \begin{aligned}[c]
+    \begin{aligned}
       \overline{z} \cdot \overline{w} &= \overline{(a+bi)} \cdot \overline{(c+di)} \\ 
        &= (a-bi) \cdot (c-di)\\
        &= ac -adi-bci-bd\\
@@ -81,18 +83,15 @@ Now we have enough definitions to finish our proof.
   \textbf{3.2} \\  % Replace x with the appropriate problem number
   Let $z = a + bi$ and $w = c + di $. Prove that $\lvert zw \rvert = \lvert z \rvert \cdot \lvert w \rvert$.
   
-  
-  To prove this statement we need to introduce the definition of the modulus of a complex number. Let $q$ be a complex number, in other words $q = c + di$ where $c$ and $d$ are real numbers. The modulus of $q$, denoted by $\lvert q \rvert$, is defined by $$\lvert q \rvert= \sqrt{c^2 + d^2}$$
-  Now we have enough definitions to finish our proof.
   \begin{proof}
-    
+    To prove this statement we need to introduce the definition of the modulus of a complex number. Let $q$ be a complex number, in other words $q = c + di$ where $c$ and $d$ are real numbers. The modulus of $q$, denoted by $\lvert q \rvert$, is defined by $$\lvert q \rvert= \sqrt{c^2 + d^2}$$
     Let $z = a + bi$ and $w = c + di $. In order to show that  $\lvert zw \rvert = \lvert z \rvert \cdot \lvert w \rvert$. We need to calculate $\lvert zw \rvert$ and $\lvert z \rvert \cdot \lvert w \rvert.$
+    $$\begin{aligned}
+      \lvert z \rvert \cdot \lvert w \rvert &= \sqrt{a^2 + b^2} \cdot \sqrt{c^2 + d^2} \\ 
+       &= \sqrt{(a^2 + b^2)(c^2 + d^2)}\\
+       &= \sqrt{a^2c^2 + a^2d^2 + b^2c^2+b^2d^2}
+    \end{aligned}$$
     \begin{equation*}
-      \begin{aligned}[c]
-        \lvert z \rvert \cdot \lvert w \rvert &= \sqrt{a^2 + b^2} \cdot \sqrt{c^2 + d^2} \\ 
-         &= \sqrt{(a^2 + b^2)(c^2 + d^2)}\\
-         &= \sqrt{a^2c^2 + a^2d^2 + b^2c^2+b^2d^2}
-      \end{aligned}
       \begin{aligned}[c]
         \lvert zw \rvert &= \overline{(a+bi)} \cdot \overline{(c+di)} \\ 
          &= (a-bi) \cdot (c-di)\\
@@ -107,6 +106,97 @@ Now we have enough definitions to finish our proof.
   
       
   \end{proof}
+  \newpage
+\begin{flushright}
+  \begin{tabular}{l}
+  Christopher David Miller \\  % Enter your name here
+  FSMAT 201 \\  % The current class. You can change this if you want to use this for other classes.
+  Problem 3.3 \\  % Replace x with the appropriate problem number
+  Version 1 \\ %If this is the first time you've submitted this solution, let n=1. If this is a first resubmission, let n=2, etc. 
+  \end{tabular}
+  \end{flushright}
+  \vspace{20pt}  % Just adding some extra vertical space.
+  
+  % Now write out the statement of the problem, followed by your solution. 
+  
+  \textbf{3.3} \\  % Replace x with the appropriate problem number
+  Let $z = a + bi$. Find the real and imaginary parts of $\frac{1}{z}.$
+  
+  \textbf{Solution:}
+      In order to find the real and imaginary parts of a complex number we must express $\frac{1}{z}$ of the form $c+di$ where $c$ and $d$ are real numbers.First we have 
+      $$
+        \frac{1}{z}  = \frac{1}{a+bi},
+      $$
+      then we multiply by 1 where $1 = \frac{a-bi}{a-bi},$
+      \begin{align*}
+        &=\frac{1}{a+bi} \cdot \frac{a-bi}{a-bi}\\
+        &=\frac{a-bi}{a^2+b^2} \\
+        &=\frac{a}{a^2+b^2}-\frac{bi}{a^2+b^2} \\
+        &=\frac{a}{a^2+b^2}-i\frac{b}{a^2+b^2} \\
+      \end{align*}.
+      Now our complex number is of the proper form. So our real part is $\frac{a}{a^2+b^2}$ and the imaginary part is $-\frac{b}{a^2+b^2}$.
+      
+      
+      \newpage
+      \begin{flushright}
+        \begin{tabular}{l}
+        Christopher David Miller \\  % Enter your name here
+        FSMAT 201 \\  % The current class. You can change this if you want to use this for other classes.
+        Problem 3.4 \\  % Replace x with the appropriate problem number
+        Version 1 \\ %If this is the first time you've submitted this solution, let n=1. If this is a first resubmission, let n=2, etc. 
+        \end{tabular}
+        \end{flushright}
+        \vspace{20pt}  % Just adding some extra vertical space.
+        
+        % Now write out the statement of the problem, followed by your solution. 
+        
+        \textbf{3.4} \\  % Replace x with the appropriate problem number
+        Let $z = a + bi$. Prove that z is a real number if and only if $z = \overline{z}$
+        
+        \begin{proof}
+          To prove this statement we need to introduce the definition of the conjugate of a complex number. Let $q$ be a complex number, in other words $q = c + di$ where $c$,the real part, and $d$, the imaginary part, are real numbers and where $i = \sqrt{-1}.$ The conjugate of $q$, denoted by $\overline{q}$, is defined by $$\overline{q}= c - di.$$
+          Let $z = a + bi$. Assume $z$ is a real number.Thus z does not have an imaginary part or in other words $z = a +0i$. Notice from the definition of conjugate that $\overline{z} = a-0i$. Thus $z = \overline{z}$. Now assume that $z = \overline{
+            z
+          }.$ We will show that $z$ is a real number. For $z$ to be a real number then the imaginary part of $z$ must be 0.Notice since 
+          $z = \overline{
+            z
+          }.$ then $a+bi = a - bi$ the only real number $b$ that this is true for is 0. Thus $z$ is a real number.  
+        \end{proof}   
+  
+      
+        \newpage
+      \begin{flushright}
+        \begin{tabular}{l}
+        Christopher David Miller \\  % Enter your name here
+        FSMAT 201 \\  % The current class. You can change this if you want to use this for other classes.
+        Problem 3.5 \\  % Replace x with the appropriate problem number
+        Version 1 \\ %If this is the first time you've submitted this solution, let n=1. If this is a first resubmission, let n=2, etc. 
+        \end{tabular}
+        \end{flushright}
+        \vspace{20pt}  % Just adding some extra vertical space.
+        
+        % Now write out the statement of the problem, followed by your solution. 
+        
+        \textbf{3.5} \\  % Replace x with the appropriate problem number
+         Prove DeMoivre's Theorem, namely, that for a nonnegative integer n, $$ (\cos\omega + i\sin\omega)^n = \cos n\omega+i\sin n\omega $$
+        
+        \begin{proof}
+          To prove this statement we need to introduce the definition of the exponetial function. Let $q$ be a complex number, in other words $q = c + di$ where $c$,the real part, and $d$, the imaginary part, are real numbers and where $i = \sqrt{-1},$ then we define the exponetial function $e^q$ by $$ e^q = e^c(\cos d +i\sin d ) .$$Notice if the real part of $q=0$ then $e^q = (\cos d +i\sin d )$  
+          
+          Assume $(\cos\omega + i\sin\omega)^n$, then following from above we have 
+          \begin{align*}
+            (\cos\omega + i\sin\omega)^n = (e^{i\omega})^n
+          \end{align*}
+          Following from laws of exponets we have
+          \begin{align*}
+            (e^{i\omega})^n = (e^{i\omega n}).
+          \end{align*}
+          Then using our defintion from earlier we have,
+          \begin{align*}
+            (e^{i\omega n})= \cos n\omega+i\sin n\omega.
+          \end{align*}
+          The proof for the other way is similar.
+        \end{proof}  
 
 
 
